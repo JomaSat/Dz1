@@ -1,0 +1,238 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main-block {
+    max-width: 100%;
+    position: relative;
+}
+.img {
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+}
+.main-block-content {
+    color:white;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 44px;
+    width: 50%;
+    margin: 0 auto;
+    padding: 113px 0;
+    text-align: center;
+
+}
+.main-block-content h1 {
+    color:white;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 44px;
+    margin-bottom: 32px;
+}
+.main-block-content p {
+    font-size: 19px;
+    line-height: 30px;
+    margin-bottom: 32px;
+}
+.main-block-content button {
+    width: 190px;
+    padding: 14px 0;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 12px;
+    border-radius: 20px;
+}
+.action-start {
+    background: linear-gradient(90deg, #F27A54 -21.05%, #A154F2 121.05%);
+    border: none;
+}
+.action-fain {
+    background:transparent;
+    border: 1px solid #fff
+}
+.img2 {
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+}
+.img3 {
+    position: absolute;
+    width: 636px;
+    height: 658px;
+    left: 700px;
+    top: 543px;
+}
+.main-bak-content h1 {
+    position: absolute;
+    width: 280px;
+    height: 112px;
+    left: 120px;
+    top: 609px;
+    color: #fff;
+    font-style: normal;
+    font-weight: 200px;
+    font-size: 33px;
+    line-height: 40px;
+}
+.main-bak-content p {
+    font-family: 'Montserrat';
+    position: absolute;
+    width: 400px;
+    height: 50px;
+    left: 120px;
+    top: 752px;
+    color: #fff;
+    /* font-family: 'Montserrat'; */
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+}
+#button {
+    background: #FFFFFF;
+    border-radius: 20px;
+    border: #fff;
+    position: absolute;
+    width: 190px;
+    height: 40px;
+    left: 120px;
+    top: 851px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 12px;
+}
+#button2 {
+    position: absolute;
+    width: 190px;
+    height: 40px;
+    border: none;
+    left: 330px;
+    top: 851px;
+    border-radius: 20px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 12px;
+    background: linear-gradient(90deg, #F27A54 -21.05%, #A154F2 121.05%), #3C444C;
+    box-shadow: 0px 30px 40px rgba(0, 0, 0, 0.1);
+}
+.image {
+    position: absolute;
+    width: 100vh;
+    height: 374px;
+    left: 772px;
+    top: 1027px;
+}
+.image2 {
+    position: absolute;
+    width: 100vh;
+    height: 500px;
+    left: 773px;
+    top:1032px; 
+} 
+.png {
+    position: absolute;
+    width: 818px;
+    height: 582px;
+    left: 0px;
+    top: 1017px;
+}
+.block-1 h1{
+    position: absolute;
+    width: 280px;
+    height: 112px;
+    left: 198px;
+    top: 1093px;
+    color: white;
+    font-family: 'Zilla Slab';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 56px;
+}
+.block-1 p {
+    position: absolute;
+    width: 400px;
+    height: 61px;
+    left: 138px;
+    top: 1242px;
+    color: white;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 30px;
+    text-align: center;
+}
+#bot {
+    font-family: 'Montserrat';
+    border: none;
+    position: absolute;
+    width: 190px;
+    height: 40px;
+    left: 243px;
+    top: 1342px;
+    background: #FFFFFF;
+    border-radius: 20px;
+}
+#image {
+    position: absolute;
+    width:100%;
+    height: 500px;
+    left: 0;
+    top: 1400px;
+}
+#image1 {
+    position: absolute;
+    width: 100%;
+    height: 520px;
+    left: 0;
+    top: 1389px;
+}
+.pin h1 {
+    color:#fff;
+    position: absolute;
+    width: 408px;
+    height: 112px;
+    left: 471px;
+    top: 1560px;
+    font-family: 'Zilla Slab';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 56px;
+    /* or 127% */
+    text-align: center;
+}
+.pin p {
+    color: #fff;
+    position: absolute;
+    width: 119px;
+    height: 30px;
+    left: 533px;
+    top: 1708px;
+    font-family: 'Zilla Slab';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 30px;
+}
+#Comment {
+    color: #fff;
+    position: absolute;
+    width: 119px;
+    height: 30px;
+    left: 706px;
+    top: 1708px;
+    font-family: 'Zilla Slab';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 30px;
+}
